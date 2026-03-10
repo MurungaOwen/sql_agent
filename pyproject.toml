@@ -1,9 +1,16 @@
 [project]
 name = "langchain-learning"
 version = "0.1.0"
-description = "Add your description here"
+description = "Natural language SQL agent with decoupled LLM and DB adapters"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "fastapi>=0.116.1",
     "langchain>=1.2.10",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.11",
+    "openai>=2.26.0",
+    "psycopg>=3.3.3",
+    "sqlalchemy>=2.0.41",
+    "uvicorn>=0.35.0",
 ]
