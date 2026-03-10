@@ -1,4 +1,4 @@
-# Ledger Lens SQL Agent
+# SQL Agent
 
 Natural-language SQL assistant built with LangChain. It exposes:
 
@@ -7,6 +7,9 @@ Natural-language SQL assistant built with LangChain. It exposes:
 - A CLI for quick local testing
 
 The architecture is intentionally decoupled so model provider and database/provider logic can be swapped independently.
+
+## Architecture Diagram
+![Architecture UI](web/assets/flow.png)
 
 ## What You Get
 
@@ -56,7 +59,7 @@ Open `http://127.0.0.1:8000`.
 
 ### UI Preview
 
-![Ledger Lens UI](web/assets/demo.png)
+![SQL Agent UI](web/assets/demo.png)
 
 ### 4. Ask a question
 
